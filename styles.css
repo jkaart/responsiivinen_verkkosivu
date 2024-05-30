@@ -71,18 +71,13 @@
 
 /* Valikon tyylit */
 nav {
-    /* margin-left: 0;
-    margin-right: 0; */
     margin-bottom: 0;
     padding: 0;
     height: 100%;
     width: auto;
-
 }
 
 nav ul {
-
-
     list-style-type: none;
     border: 1px solid black;
     border-radius: 3px;
@@ -149,6 +144,10 @@ h1 {
 
 .tosa {
     padding-top: 20px;
+}
+
+.tosa ul:nth-child(2) {
+    list-style: none;
 }
 
 #arvosana_taulukko {
